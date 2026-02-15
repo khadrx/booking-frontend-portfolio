@@ -23,8 +23,8 @@ npm run dev
 
 Open: http://localhost:3000/booking
 
-### Live Demo (قريبًا)
-https://booking-frontend.vercel.app
+### Live Demo
+https://booking-frontend-portfolio.vercel.app
 
 ### Backend repo
 https://github.com/khadrDev/booking-backend-portfolio
