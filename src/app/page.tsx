@@ -34,7 +34,7 @@ export default function BookingPage() {
     const fetchSlots = async () => {
       const formatted = format(date, "yyyy-MM-dd")
       try {
-        const res = await fetch(`http://localhost:8000/available-slots/?date=${formatted}`)
+        const res = await fetch(`https://booking-backend-portfolio-production.up.railway.app/available-slots/?date=${formatted}`)
         const data = await res.json()
         setAvailableSlots(data.available_slots)
       } catch (err) {
@@ -68,7 +68,7 @@ export default function BookingPage() {
     const formattedDate = format(date, "yyyy-MM-dd")
 
     try {
-      const response = await fetch("http://localhost:8000/bookings/", {
+      const response = await fetch("https://booking-backend-portfolio-production.up.railway.app/bookings/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
