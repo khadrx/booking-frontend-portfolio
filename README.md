@@ -31,6 +31,6 @@ Full-Stack demo application – حجز مواعيد احترافي
 عبد الرحمن خضر (خضر) – Full-Stack Developer  
 GitHub: https://github.com/khadrx  
 LinkedIn: https://www.linkedin.com/in/abdelrahman-khadr  
-Email: khadr@yourdomain.com (أو الإيميل اللي عايز)
+Email: abdelrahmankhadr@zohomail.com
 
 Built as part of my portfolio – February 2026
