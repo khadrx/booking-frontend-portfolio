@@ -38,6 +38,31 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </header>
 
           <main>{children}</main>
+
+          {/* Footer */}
+          <footer className="border-t bg-muted/40 py-6 mt-auto">
+            <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
+              <p>
+                © {new Date().getFullYear()} عبد الرحمن خضر (خضر) – Full-Stack Developer
+              </p>
+              <p className="mt-1">
+                مشروع بورتفوليو: نظام حجز مواعيد
+                {" • "}
+                <Link
+                  href="https://github.com/khadrx/booking-frontend-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  View on GitHub
+                </Link>
+              </p>
+              <p className="mt-1 text-xs">
+                Built with Next.js, shadcn/ui, FastAPI & PostgreSQL
+              </p>
+            </div>
+          </footer>
+          
           <Toaster richColors position="top-right" />
         </ThemeProvider>
       </body>
